@@ -37,10 +37,11 @@ Get the latest news through intelligent conversation. Ask for any topic and rece
 
 3. **Add your NewsAPI key**
    - **Fastest:** in `chatbot_NewsAPI.py`, set your key where the request headers are defined.
-   - **Recommended (env-based):**
      ```python
      headers = {"X-Api-Key": os.getenv("NEWSAPI_KEY")}
      ```
+   - **Recommended (env-based):**
+     ```bash
      Then put `NEWSAPI_KEY=...` in your `.env` (see Step 2).
 
 4. **Run the app**
