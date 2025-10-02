@@ -42,7 +42,7 @@ Get the latest news through intelligent conversation. Ask for any topic and rece
      ```
    - **Recommended (env-based):**
      ```bash
-     Then put `NEWSAPI_KEY=...` in your `.env` (see Step 2).
+     `NEWSAPI_KEY=...` in your `.env` (see Step 2).
 
 4. **Run the app**
    ```bash
